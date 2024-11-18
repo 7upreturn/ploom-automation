@@ -1,0 +1,48 @@
+{
+    "dev": {
+      "uk": {
+        "homePageURL": "https://www.ploom.co.uk/en"
+      },
+      "pl": {
+        "homePageURL": "https://dev.ploom.pl/pl"
+      }
+    },
+
+
+
+    "prod": {
+      "uk": {
+        "homePageURL": "https://www.ploom.co.uk/en",
+        "locators": {
+            "closeCookiesButton":"Close",
+            "ageConfirmationButton": "Yes, discover more",
+            "shopNavBarItem": "headerItem-0",
+            "itemInBasket": "Ploom X Advanced Black",
+            "readMoreLink": "Read more",
+            "readLessLink": "Read less",
+            "buyNowButton": "Buy Now"
+        },
+        "sku":
+        {
+            "targetProduct": "ploom-x-advanced"
+        }
+      },
+      "pl": {
+        "homePageURL": "https://www.ploom.pl/pl",
+        
+        "sku":
+        {
+            "targetProduct": "16154414"
+        },
+        "locators": {
+            "ageConfirmationButton": "Potwierdź",
+            "closeCookiesButton":"Zamknięcie",
+            "shopNavBarItem": "headerItem-1",
+            "itemInBasket": "Ploom X Advanced Red by Ora ï",
+            "readMoreLink": "Rozwiń",
+            "readLessLink": "Zwiń",
+            "buyNowButton": "Kup teraz"
+        }
+      }
+    }
+  }
